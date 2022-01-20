@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Hacker News API</title>
+  </head>
+  <body>
+    <!-- Start -->
+
+    <main class="container">
+      <div class="inner-container">
+        <header class="header">
+          <div class="logo">
+            <img src="./images/y18.gif" alt="Hacker News" />
+          </div>
+          <h1 class="">Hacker News</h1>
+          <form>
+            <input class="" type="text" id="search" placeholder="Enter a Hacker News ID" required />
+            <button class="submit-btn" id="submit">Go</button>
+          </form>
+        </header>
+
+        <div class="result-div">
+          <p class="title" id="result">Waiting on your search query...</p>
+          <ul class="first-ul"></ul>
+          <div class="comments-div">
+            <p class="comments" id="comments">Comments</p>
+            <ul class="second-ul"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- End -->
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+:root {
+  --color-dark: #0a0a0e;
+  --color-light: #e9e3e6;
+  --color-accent: #788591;
+  --color-brand: #ff6600;
+  --color-light2: rgb(180, 180, 180);
+  --color-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+}
+
+main.container {
+  min-width: 796px;
+  padding: 0.5rem 5rem;
+}
+
+.inner-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 3px;
+  background-color: var(--color-brand);
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-white);
+}
+
+img {
+  font-size: 18px;
+}
+
+h1 {
+  margin-right: 1.1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+input {
+  width: 300px;
+  padding: 0.2rem;
+  border: none;
+  background-color: var(--color-white);
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+input:focus {
+  color: var(--color-light2);
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--color-light2);
+  font-size: 0.8rem;
+}
+
+button#submit {
+  padding: 0.2rem 0.5rem;
+  border: none;
+  background-color: var(--color-dark);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.originalText {
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+  color: var(--color-dark);
+}
+
+.result-div {
+  max-width: 75%;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+
+.first-ul {
+  border-bottom: 1px solid var(--color-light2);
+}
+
+.first-ul p {
+  padding-bottom: 0.7rem;
+}
+
+.comments {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+.comment-group {
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid var(--color-light2);
+}
