@@ -1,5 +1,5 @@
 # Hacker News API Search
 
-I wanted to practice querying data, working with API's and JavaScript (ES6). So I built a simple page where you can search HN using id's.
+Querying data practice working with API's and JavaScript (ES6).
 
 Made possible using the [Hacker News API](https://github.com/HackerNews/API).
