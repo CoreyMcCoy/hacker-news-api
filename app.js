@@ -14,8 +14,6 @@ const getData = async () => {
   let data = await response.json();
   const { about, id, karma, submitted } = data;
 
-  console.log(data);
-
   // Display the data in the DOM
   ul1.innerHTML = `
     <li><strong>Username:</strong> ${id}</li>
@@ -31,7 +29,6 @@ const getData = async () => {
         `https://hacker-news.firebaseio.com/v0/item/${item}.json?print=pretty`
       );
       let data = await response.json();
-      console.log(data);
       let { title, text, id, kids } = data;
 
       if (text === undefined) {
