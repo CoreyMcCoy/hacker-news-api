@@ -82,7 +82,7 @@ input::placeholder {
 }
 
 button#submit {
-  padding: 0.2rem 0.5rem;
+  padding: 0.25rem 0.5rem;
   border: none;
   background-color: var(--color-dark);
   font-size: 0.9rem;
